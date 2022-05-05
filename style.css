@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    color: white;
+    width: 100%;
+    height: 560px;
+    background-color: hsl(220, 25%, 12%);
+    border-style: double;
+}
+
+article .nombre {
+    
+    align-items: center;
+    display: block;
+    margin-left: 15%;
+    margin-top: 0;
+    margin-bottom: 6px;
+    width: 330px;
+    height: 220px;
+    background-color: #ffcc01;
+    border-radius: 0 0 15px 15px;
+    padding: 5rem;
+    font-family:sans-serif;
+    font-size: 24px;
+    color: black;
+    font-weight:bolder;
+    text-align: center;
+              
+}
+
+article .nombre:hover {
+    color: white;
+    background-color: #c29e0f;
+    cursor: pointer;
+}
+
+article .apellidos {
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    display: block;
+    width: 220px;
+}
+
+article .profesion {
+    width: 700px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    margin-left: 1.5%;
+    margin-right: 0%;
+    font-size: 24px;
+
+}
+
+article .foto {
+    
+    margin-left: 55%;
+    margin-top: -18%;
+    border-radius: 20px;
+    
+
+}
+
+article .telefono {
+    margin: 0 0 0 0;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-left: 900px;   
+}
+
+article .email {
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-left: 900px;   
+}
+
+article .addres {
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-left: 900px;   
+}
+
+.about_me:nth-of-type(1) {
+    margin-top: 2%;
+    margin-left: 4%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 3px;    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.linea {
+  border-top: 3px solid #ffcc01;
+  height: 3px;
+  max-width: 220px;
+  padding: 0;
+  margin: -19% 0 0 10%;
+}
+
+.linea_2 {
+    border-top: 3px solid #ffcc01;
+    height: 3px;
+    max-width: 220px;
+    padding: 0;
+    margin: -1% 0 0 10%;
+}
+
+.me_description {
+    margin: 5% 0 5% 12%;
+    text-justify: auto;
+    text-align: left;
+    width: 400px;
+    font-size: 18px;
+}
+
+.experience {
+    margin: -21% 0% 0% 48%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 1.5px;    
+    font-size: 18px;
+    font-weight: bold;
+    font-display: initial;
+}
+
+.linea_3 {
+  border-top: 3px solid #ffcc01;
+  height: 3px;
+  max-width: 220px;
+  padding: 0;
+  margin: -25% 0 4% 56%;
+}
+
+.linea_4 {
+    border-top: 3px solid #ffcc01;
+    height: 3px;
+    max-width: 220px;
+    padding: 0;
+    margin: -2% 0 0 56%;
+
+}
+
+.me_experience {
+    margin: 5% 0 5% 57%;
+    text-justify: auto;
+    text-align: left;
+    width: 400px;
+    font-size: 18px;
+
+}
