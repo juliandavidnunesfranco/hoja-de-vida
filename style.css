@@ -8,6 +8,12 @@ html, body {
     padding: 0;
 }
 
+main {
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolor-4116932_960_720.png);
+    width: 0 auto;
+    height: 1090px;
+}
+
 article {
     color: white;
     width: 100%;
@@ -168,5 +174,180 @@ article .addres {
     text-align: left;
     width: 400px;
     font-size: 18px;
+
+}
+
+.educacion {
+    margin-top: 7%;
+    margin-left: 4%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 3px;    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.linea_5 {
+    border-top: 3px solid #ffcc01;
+    height: 3px;
+    max-width: 220px;
+    padding: 0;
+    margin: -22% 0 -3% 10%;
+}
+  
+.linea_6 {
+    border-top: 3px solid #ffcc01;
+    height: 3px;
+    max-width: 220px;
+    padding: 0;
+    margin: -3% 0 0 10%;
+}
+
+.me_education {
+    margin: 5% 0 5% 12%;
+    text-justify: auto;
+    text-align: left;
+    width: 400px;
+    font-size: 18px;  
+}
+  
+
+.ref {
+    margin: -22% 0% 0% 48%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 1.5px;    
+    font-size: 18px;
+    font-weight: bold;
+    font-display: initial;
+
+}
+
+.linea_7 {
+    border-top: 3px solid #ffcc01;
+    height: 3px;
+    max-width: 220px;
+    padding: 0;
+    margin: -25% 0 4% 56%;
+}
+  
+.linea_8 {
+      border-top: 3px solid #ffcc01;
+      height: 3px;
+      max-width: 220px;
+      padding: 0;
+      margin: -2% 0 0 56%;
+  
+}
+
+.me_ref {
+    margin: 5% 0 5% 57%;
+    text-justify: auto;
+    text-align: left;
+    width: 400px;
+    font-size: 18px;
+
+}
+
+.skills {
+    margin-top: 9%;
+    margin-left: 4%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 3px;    
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.linea_9 {
+    border-top: 3px solid #ffcc01;
+    height: 3px;
+    max-width: 220px;
+    padding: 0;
+    margin: -25% 0 -2% 10%;
+}
+  
+.linea_10 {
+      border-top: 3px solid #ffcc01;
+      height: 3px;
+      max-width: 220px;
+      padding: 0;
+      margin: -2% 0 0 10%;
+}
+
+.me_skills {
+    margin: 5% 0 5% 12%;
+    text-justify: auto;
+    text-align: left;
+    width: 400px;
+    font-size: 18px;
+    padding: 1rem;
+
+}
+
+.hobbies {
+    margin: -16% 0% 0% 48%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 1.5px;    
+    font-size: 18px;
+    font-weight: bold;
+    font-display: initial;
+
+}
+
+.linea_11 {
+    border-top: 3px solid #ffcc01;
+    height: 3px;
+    max-width: 220px;
+    padding: 0;
+    margin: -16% 0 0 56%;
+}
+  
+.linea_12 {
+      border-top: 3px solid #ffcc01;
+      height: 3px;
+      max-width: 220px;
+      padding: 0;
+      margin: -2% 0 0 56%;
+  
+}
+
+.me_hobbies {
+    margin: 3% 0 5% 57%;
+    text-justify: auto;
+    text-align: left;
+    width: 400px;
+    font-size: 18px;
+
+}
+
+.chess {
+    align-items: stretch;
+    display: flex;
+    width: 50px;
+    height: 40px;
+    margin: -7% 0 0 25%;
+
+}
+
+.books {
+    align-items: stretch;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: -7% 0 0 25%;
+    border-radius: 30px;
+
+}
+
+.web_development {
+    align-items: stretch;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: -7% 0 0 29%;
 
 }
